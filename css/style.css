@@ -1,0 +1,156 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #1F2937; /* Default text color */
+}
+
+/* Header */
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 1em 0;
+}
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #F9FAF8;
+}
+header p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1F2937;
+    padding: 0.5em 0;
+    text-align: center;
+}
+nav a {
+    color: #E5E7EB;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+.hero a {
+    color: #3882F6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Call-to-Action Section */
+.cta {
+    background-color: #3882F6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+.cta button {
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cta button:hover {
+    background-color: #316ACC;
+}
+
+/* Main Content */
+.container {
+    padding: 20px;
+}
+.container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+.container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+/* Quote Section */
+blockquote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Contact Form */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+form button {
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #316ACC;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 1em 0;
+}
+footer a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
